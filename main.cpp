@@ -15,10 +15,10 @@ int main(int argc, char*argv[]){
 			}
 			++index;
 		}
-		std::cout << summ << "," << prod << std::endl;
+		std::cout << summ << ", " << prod << std::endl;
 	}else{
 		unsigned int number;
-		std::cout << "Input number: ";
+		//std::cout << "Input number: ";
 		std::cin >> number;
 
 		do{
